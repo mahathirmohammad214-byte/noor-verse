@@ -1,117 +1,44 @@
 <!DOCTYPE html>
 <html lang="bn">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Noor Verse - জ্ঞান, ইতিহাস ও আলোর পথে</title>
-    <!-- Tailwind CSS CDN -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Hind Siliguri', sans-serif;
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Noor Verse - হোমপেজ</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>body{font-family:'Hind Siliguri',sans-serif}</style>
 </head>
-<body class="bg-[#f0f7f4] text-gray-800 antialiased">
+<body class="bg-[#f0f7f4] text-gray-800">
 
-    <!-- Top Announcement Bar -->
-    <header class="bg-[#1b4332] text-white text-xs sm:text-sm py-2 px-4 text-center font-medium shadow-sm">
-        <p>✨ জ্ঞান, ইতিহাস ও আলোর পথে — স্বাগতম Noor Verse-এ ✨</p>
-    </header>
+<header class="bg-[#1b4332] text-white p-5 text-center">
+<h1 class="text-3xl font-bold">Noor Verse</h1>
+<a href="about.html" class="inline-block mt-4 bg-white text-[#1b4332] px-4 py-2 rounded-full font-semibold shadow-sm">প্রতিষ্ঠাতা সম্পর্কে</a>
+</header>
 
-    <!-- Main Header / Navigation -->
-    <nav class="bg-white shadow-md sticky top-0 z-50">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex justify-between h-16 items-center">
-                <!-- Logo -->
-                <div class="flex items-center space-x-2">
-                    <span class="text-2xl sm:text-3xl">🌙</span>
-                    <span class="text-xl sm:text-2xl font-bold text-[#1b4332] tracking-wide">Noor Verse</span>
-                </div>
-                <!-- Nav Links -->
-                <div class="hidden md:flex space-x-6 text-gray-600 font-medium">
-                    <a href="#" class="hover:text-[#2d6a4f] transition">হোম</a>
-                    <a href="#features" class="hover:text-[#2d6a4f] transition">ইসলামিক জ্ঞান</a>
-                    <a href="#creator" class="hover:text-[#2d6a4f] transition">প্রতিষ্ঠাতা</a>
-                </div>
-            </div>
-        </div>
-    </nav>
+<main class="max-w-3xl mx-auto p-4 space-y-5">
+<section class="text-center my-4">
+<h2 class="text-2xl font-bold text-green-900">প্রধান বিভাগসমূহ</h2>
+<p class="text-gray-600 text-sm mt-1">আপনার প্রয়োজনীয় বিভাগটি বেছে নিন</p>
+</section>
 
-    <!-- Hero Section -->
-    <section class="relative bg-gradient-to-br from-[#1b4332] to-[#2d6a4f] text-white py-16 sm:py-24 px-4 text-center">
-        <div class="max-w-4xl mx-auto space-y-6">
-            <span class="bg-[#40916c] text-white text-xs sm:text-sm font-semibold px-3 py-1 rounded-full uppercase tracking-wider shadow-inner">বাংলা ইসলামিক জ্ঞানভাণ্ডার</span>
-            <h1 class="text-3xl sm:text-5xl font-extrabold tracking-tight leading-tight">জানুন ইতিহাস, আলোকিত করুন মন।</h1>
-            <p class="text-base sm:text-xl text-[#d8f3dc] max-w-2xl mx-auto font-light">ইসলামের ইতিহাস, মুসলিম সভ্যতা, কুরআন-হাদিস ও উপকারী জ্ঞান সহজ বাংলায় জানার একটি উদ্যোগ।</p>
-            <div class="flex flex-col sm:flex-row justify-center gap-4 pt-4">
-                <a href="#features" class="bg-[#52b788] hover:bg-[#40916c] text-white font-semibold px-8 py-3 rounded-xl shadow-lg transition duration-300">জ্ঞান অন্বেষণ করুন</a>
-                <a href="#creator" class="bg-transparent border-2 border-white hover:bg-white hover:text-[#1b4332] text-white font-semibold px-8 py-3 rounded-xl transition duration-300">প্রতিষ্ঠাতা সম্পর্কে</a>
-            </div>
-        </div>
-    </section>
+<!-- কুরআন ও হাদিস কার্ড (এখানে লিংক করা হয়েছে) -->
+<a href="quran-hadith.html" class="block bg-white rounded-2xl p-5 shadow-sm hover:shadow-md transition">
+<h2 class="text-xl font-bold text-green-900">📖 কুরআন ও হাদিস</h2>
+<p class="mt-3 text-gray-600">সহিহ হাদিস ও পবিত্র কুরআনের আয়াতের তাফসির সহজ ভাষায় অধ্যয়ন করুন。</p>
+</a>
 
-    <!-- Featured Content Cards -->
-    <section id="features" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
-        <div class="text-center mb-12">
-            <h2 class="text-2xl sm:text-3xl font-bold text-[#1b4332]">প্রধান বিভাগসমূহ</h2>
-            <p class="text-gray-600 mt-2">আপনার প্রয়োজনীয় বিভাগটি বেছে নিন</p>
-        </div>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <!-- Card 1 -->
-            <div class="bg-white p-6 sm:p-8 rounded-2xl shadow-md hover:shadow-xl transition border-t-4 border-[#2d6a4f]">
-                <div class="text-3xl mb-4">📖</div>
-                <h3 class="text-xl font-bold text-[#1b4332] mb-2">কুরআন ও হাদিস</h3>
-                <p class="text-gray-600 text-sm leading-relaxed">সহীহ হাদিস ও পবিত্র কুরআনের আয়াতের তাফসির সহজ ভাষায় অধ্যয়ন করুন।</p>
-            </div>
-            <!-- Card 2 -->
-            <div class="bg-white p-6 sm:p-8 rounded-2xl shadow-md hover:shadow-xl transition border-t-4 border-[#2d6a4f]">
-                <div class="text-3xl mb-4">🏛️</div>
-                <h3 class="text-xl font-bold text-[#1b4332] mb-2">ইসলামিক ইতিহাস</h3>
-                <p class="text-gray-600 text-sm leading-relaxed">ইসলামের স্বর্ণযুগ, সাহাবিগণের জীবন এবং ঐতিহাসিক ঘটনাবলী সম্পর্কে জানুন।</p>
-            </div>
-            <!-- Card 3 -->
-            <div class="bg-white p-6 sm:p-8 rounded-2xl shadow-md hover:shadow-xl transition border-t-4 border-[#2d6a4f]">
-                <div class="text-3xl mb-4">✍️</div>
-                <h3 class="text-xl font-bold text-[#1b4332] mb-2">প্রবন্ধ ও গবেষণা</h3>
-                <p class="text-gray-600 text-sm leading-relaxed">সমসাময়িক বিষয়ে ইসলামী দৃষ্টিকোণ থেকে বিশ্লেষণমূলক লেখা ও প্রবন্ধ।</p>
-            </div>
-        </div>
-    </section>
+<!-- ইসলামিক ইতিহাস কার্ড -->
+<div class="bg-white rounded-2xl p-5 shadow-sm">
+<h2 class="text-xl font-bold text-green-900">🏛️ ইসলামিক ইতিহাস</h2>
+<p class="mt-3 text-gray-600">ইসলামের স্বর্ণযুগ, সাহাবিগণের জীবন এবং ঐতিহাসিক ঘটনাবলী সম্পর্কে জানুন।</p>
+</div>
 
-    <!-- Creator Profile Section -->
-    <section id="creator" class="bg-white py-16 px-4 border-t border-gray-100">
-        <div class="max-w-3xl mx-auto text-center space-y-6">
-            <!-- Profile Image -->
-            <div class="relative w-36 h-36 mx-auto">
-                <img src="profile.jpg" alt="হাফেজ মাহাথির মোহাম্মদ সাদ" class="w-36 h-36 rounded-full object-cover shadow-lg border-4 border-[#2d6a4f]">
-            </div>
-            
-            <div>
-                <h2 class="text-2xl sm:text-3xl font-bold text-[#1b4332]">হাফেজ মাহাথির মোহাম্মদ সাদ</h2>
-                <p class="text-[#52b788] font-semibold mt-1">প্রতিষ্ঠাতা ও পরিচালক, Noor Verse</p>
-            </div>
+</main>
 
-            <p class="text-gray-600 text-base sm:text-lg leading-relaxed max-w-2xl mx-auto">
-                আসসালামু আলাইকুম। আমি <strong>হাফেজ মাহাথির মোহাম্মদ সাদ</strong>। ইসলামের সঠিক ও বিশুদ্ধ ইতিহাস, সহীহ হাদিসের আলোকবর্তিকা এবং ইসলাম সম্পর্কে প্রয়োজনীয় জ্ঞান সবার দ্বারে দ্বারে সহজ ভাষায় পৌঁছে দেওয়ার লক্ষ্যেই এই <strong>Noor Verse</strong> প্ল্যাটফর্মটির সূচনা। 
-            </p>
-
-            <div class="pt-2">
-                <span class="inline-block bg-[#d8f3dc] text-[#1b4332] font-semibold px-5 py-2 rounded-full text-sm shadow-sm">
-                    ✨ সত্যের পথে ও আলোর সন্ধানে আমাদের এই ক্ষুদ্র প্রয়াস
-                </span>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="bg-[#1b4332] text-[#d8f3dc] py-8 text-center text-sm">
-        <div class="max-w-7xl mx-auto px-4 space-y-3">
-            <p class="font-bold text-white text-lg">Noor Verse</p>
-            <p>© ২০২৬ Noor Verse | প্রতিষ্ঠাতা: হাফেজ মাহাথির মোহাম্মদ সাদ। সর্বস্বত্ব সংরক্ষিত।</p>
-        </div>
-    </footer>
+<footer class="bg-[#1b4332] text-green-100 text-center p-5 mt-10">
+<p class="font-bold text-white">Noor Verse</p>
+<p class="text-sm mt-1">জানুন ইতিহাস, আলোকিত করুন মন</p>
+</footer>
 
 </body>
 </html>
