@@ -10,7 +10,7 @@
 </head>
 <body class="bg-[#f0f7f4] text-gray-800">
 
-<!-- ওয়েবসাইটের লোগো ও হেডার অংশ (ফিক্সড এবং স্লিম করা হয়েছে) -->
+<!-- ওয়েবসাইটের লোগো ও হেডার অংশ (ফিক্সড এবং স্লিম) -->
 <header class="bg-[#1b4332] text-white fixed top-0 left-0 w-full z-50 px-4 py-3 shadow-md flex items-center justify-between">
     <div class="flex items-center space-x-3">
         <span class="text-2xl">✨</span>
@@ -19,8 +19,8 @@
     <p class="text-green-200 text-xs hidden sm:block">জানুন ইতিহাস, আলোকিত করুন মন</p>
 </header>
 
-<!-- মূল অংশ ও প্রজেক্টের পরিচিতি (হেডার ফিক্সড থাকার কারণে ওপরের ফাঁকা জায়গা বা pt-24 দেওয়া হয়েছে) -->
-<main class="max-w-3xl mx-auto p-4 pt-24 space-y-6">
+<!-- মূল অংশ ও প্রজেক্টের পরিচিতি -->
+<main class="max-w-4xl mx-auto p-4 pt-24 space-y-6">
 
     <!-- প্রজেক্ট বা প্রতিষ্ঠাতা সম্পর্কে সংক্ষিপ্ত পরিচিতি -->
     <section class="bg-white rounded-2xl p-6 shadow-sm border border-green-100">
@@ -36,27 +36,32 @@
         <p class="text-gray-600 text-sm mt-1">আপনার প্রয়োজনীয় বিভাগটি বেছে নিয়ে ভেতরে প্রবেশ করুন</p>
     </section>
 
-    <!-- ১. কুরআন ও হাদিস পেজে যাওয়ার কার্ড -->
-    <a href="quran-hadith.html" class="block bg-white rounded-2xl p-5 shadow-sm hover:shadow-md transition border-l-4 border-[#1b4332]">
-        <div class="flex items-center space-x-4">
-            <span class="text-3xl">📖</span>
-            <div>
-                <h3 class="text-xl font-bold text-green-900">কুরআন ও হাদিস</h3>
-                <p class="text-gray-600 text-sm mt-1">সহিহ হাদিস ও পবিত্র কুরআনের আয়াতের তাফসির সহজ ভাষায় অধ্যয়ন করুন।</p>
+    <!-- গ্রিড লেআউট: কার্ডগুলো পাশাপাশি সুন্দরভাবে সাজানো -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+        
+        <!-- ১. কুরআন ও হাদিস পেজে যাওয়ার কার্ড -->
+        <a href="quran-hadith.html" class="block bg-white rounded-2xl p-5 shadow-sm hover:shadow-md transition border-l-4 border-[#1b4332]">
+            <div class="flex items-center space-x-4">
+                <span class="text-3xl">📖</span>
+                <div>
+                    <h3 class="text-xl font-bold text-green-900">কুরআন ও হাদিস</h3>
+                    <p class="text-gray-600 text-sm mt-1">সহিহ হাদিস ও পবিত্র কুরআনের আয়াতের তাফসির সহজ ভাষায় অধ্যয়ন করুন।</p>
+                </div>
             </div>
-        </div>
-    </a>
+        </a>
 
-    <!-- ২. ইসলামিক ইতিহাস পেজে যাওয়ার কার্ড -->
-    <a href="islamic-history.html" class="block bg-white rounded-2xl p-5 shadow-sm hover:shadow-md transition border-l-4 border-[#1b4332]">
-        <div class="flex items-center space-x-4">
-            <span class="text-3xl">🏛️</span>
-            <div>
-                <h3 class="text-xl font-bold text-green-900">ইসলামিক ইতিহাস</h3>
-                <p class="text-gray-600 text-sm mt-1">ইসলামের স্বর্ণযুগ, সাহাবিগণের জীবন এবং ঐতিহাসিক ঘটনাবলী সম্পর্কে জানুন।</p>
+        <!-- ২. ইসলামিক ইতিহাস পেজে যাওয়ার কার্ড -->
+        <a href="islamic-history.html" class="block bg-white rounded-2xl p-5 shadow-sm hover:shadow-md transition border-l-4 border-[#1b4332]">
+            <div class="flex items-center space-x-4">
+                <span class="text-3xl">🏛️</span>
+                <div>
+                    <h3 class="text-xl font-bold text-green-900">ইসলামিক ইতিহাস</h3>
+                    <p class="text-gray-600 text-sm mt-1">ইসলামের স্বর্ণযুগ, সাহাবিগণের জীবন এবং ঐতিহাসিক ঘটনাবলী সম্পর্কে জানুন।</p>
+                </div>
             </div>
-        </div>
-    </a>
+        </a>
+
+    </div>
 
 </main>
 
